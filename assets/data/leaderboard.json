@@ -1,0 +1,30 @@
+{
+  "_note": "Edit this file to update the rivalry. Your Discord bot can read/write it too. Wins are counted from 'record.wins', not from the number of challenges listed.",
+  "rivalry": {
+    "champion": "SuperiorJeet67",
+    "challenger": "Void",
+    "adjudicator": "SuperiorJeet67"
+  },
+  "record": {
+    "wins": 847,
+    "losses": 0,
+    "disputed": 0,
+    "verification": "Unavailable",
+    "streak": "847 (current, all-time)",
+    "last_updated": "2026-10-18"
+  },
+  "challenges": [
+    { "id": "001", "date": "2024-03-02", "category": "Programming", "challenge": "Reverse a linked list in under two minutes", "result": "SuperiorJeet67", "note": "Completed in 41 seconds. Void asked which language." },
+    { "id": "014", "date": "2024-04-11", "category": "Mathematics", "challenge": "Prove there are infinitely many primes", "result": "SuperiorJeet67", "note": "Euclid's proof, recited from memory. Void sent a Wikipedia link 6 minutes later." },
+    { "id": "033", "date": "2024-05-20", "category": "Networking", "challenge": "Explain the TCP three-way handshake", "result": "SuperiorJeet67", "note": "Void said 'syn, ack, and the other one.' Partial credit was not awarded." },
+    { "id": "067", "date": "2024-07-06", "category": "Cryptography", "challenge": "Explain why ECB mode is a bad idea", "result": "SuperiorJeet67", "note": "Void failed to respond within the allotted time. Victory awarded by the adjudicating authority." },
+    { "id": "112", "date": "2024-09-14", "category": "Reverse Engineering", "challenge": "Identify a function's purpose from its disassembly", "result": "SuperiorJeet67", "note": "Void identified it as 'a function.' Technically correct. Not enough." },
+    { "id": "209", "date": "2024-12-01", "category": "Security Trivia", "challenge": "What does ASLR stand for?", "result": "SuperiorJeet67", "note": "Void answered 'a skid's last resort.' Ironically accurate. Still wrong." },
+    { "id": "340", "date": "2025-02-18", "category": "Programming", "challenge": "Spot the off-by-one error", "result": "SuperiorJeet67", "note": "Void found two. There was one. The second one was in his own message." },
+    { "id": "488", "date": "2025-05-30", "category": "Mathematics", "challenge": "Mental arithmetic: 67 × 67", "result": "SuperiorJeet67", "note": "4489. Instantly. Void used a calculator and still had to check." },
+    { "id": "601", "date": "2025-08-12", "category": "Networking", "challenge": "Subnet a /24 into four equal networks", "result": "SuperiorJeet67", "note": "Void's answer was received as a screenshot of someone else's answer. Disqualified on style." },
+    { "id": "733", "date": "2026-01-09", "category": "Cryptography", "challenge": "Hashing vs encryption — explain the difference", "result": "SuperiorJeet67", "note": "Void claimed it was 'the same thing but different.' Ruled inconclusive. Inconclusive results go to the champion." },
+    { "id": "800", "date": "2026-06-21", "category": "Reverse Engineering", "challenge": "Name three calling conventions", "result": "SuperiorJeet67", "note": "Void named 'calling, texting, and Discord.' Creative. Defeated." },
+    { "id": "847", "date": "2026-10-17", "category": "Security Trivia", "challenge": "Who is the Malware Maharaja?", "result": "SuperiorJeet67", "note": "Void refused to answer. Silence was accepted as the correct answer." }
+  ]
+}

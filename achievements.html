@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Achievements & Recognition · SuperiorJeet67</title>
+  <meta name="description" content="Selected accomplishments of SuperiorJeet67, the Malware Maharaja. (Fictional satirical portfolio.)" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body data-root="./" data-page="achievements">
+  <main id="main">
+    <div class="page-head">
+      <div class="wrap">
+        <span class="eyebrow">// achievements &amp; recognition</span>
+        <h1>Achievements &amp; Recognition</h1>
+        <p>I don't collect recognition. Recognition isn't skill. But people kept asking for a list, so here is one. It is not exhaustive. Exhaustive would take a server.</p>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="random-box fade" id="random-ach">
+          <span class="eyebrow" style="margin-bottom:0">// random accomplishment</span>
+          <div class="out">Press the button. Receive greatness.</div>
+          <button class="btn primary">Reveal a discovery</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap" style="max-width:820px">
+        <span class="eyebrow">// the record</span>
+        <h2>Selected accomplishments</h2>
+        <div style="margin-top:20px" id="ach-list"></div>
+        <p class="notice-inline" style="margin-top:28px">All achievements are fictional. No real company, university, government body or organization has endorsed this character. <a href="./disclaimer.html">Disclosure &rarr;</a></p>
+      </div>
+    </section>
+  </main>
+  <script src="./assets/js/main.js"></script>
+  <script>
+    const EXTRA = [
+      { yr: "credible-ish", h: "Independent malware analysis research", p: "Years of self-directed analysis notes on loader and packer behavior. Private. Qualified readers only. There are none." },
+      { yr: "credible-ish", h: "Custom analysis tooling", p: "Author of RELIC, a binary analysis framework built from scratch because the existing ones kept trying to help." },
+      { yr: "credible-ish", h: "Cryptographic protocol experimentation", p: "Implemented primitives from spec, checked against official test vectors, and lived to tell the tale." },
+      { yr: "sure", h: "Recognition in underground communities", p: "Verified Vendor status and a +847 reputation on a forum I also founded and moderated. No conflict of interest I'm willing to discuss." },
+      { yr: "escalating", h: "Founder of JioCoin-X (₹CHAI)", p: "Pioneered Proof-of-Bargaining, the only consensus mechanism that can hurt your feelings." },
+      { yr: "escalating", h: "Former architect of MalwareMaharaja.onion", p: "Built at twelve. Sold at seventeen. The gap between those two sentences contains an entire childhood you didn't have." },
+      { yr: "bold", h: "Discovery of the 67th theorem", p: "The first 66 were warmups. The proof is beautiful. You may not see it." },
+      { yr: "bold", h: "Invention of Negative-Day exploitation", p: "A method for identifying a vulnerability before the code — or the developer's idea for the code — exists. Peer review pending peers." },
+      { yr: "legendary", h: "Reversed a commercial game and its anti-cheat", p: "For educational purposes. The education was mine. Deployed nothing. Learned everything." },
+      { yr: "legendary", h: "847–0 against Void", p: "The longest unbroken intellectual winning streak in the history of my Discord server. Independently unverifiable. Personally guaranteed." }
+    ];
+    document.getElementById("ach-list").innerHTML = EXTRA.map(a => `
+      <div class="ach fade in">
+        <div class="yr">${SJ.esc(a.yr)}</div>
+        <div><h3>${SJ.esc(a.h)}</h3><p>${SJ.esc(a.p)}</p></div>
+      </div>`).join("");
+  </script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+{
+  "_note": "Research projects. 'categories' drive the filter buttons. Fictional, descriptive only.",
+  "projects": [
+    {
+      "id": "relic",
+      "title": "RELIC — Analysis Framework",
+      "categories": ["reverse-engineering", "programming"],
+      "status": "active",
+      "date": "2024 — present",
+      "summary": "A personal binary analysis workbench with graph views, annotations and version diffing.",
+      "details": [
+        "Loads common executable formats and presents functions, strings and cross-references in one view.",
+        "Side-by-side diffing so two versions of the same program can be compared visually.",
+        "Annotation layer that exports clean reports.",
+        "Built in Rust. Started as a weekend project, became a lifestyle."
+      ],
+      "stack": "Rust · Capstone",
+      "jeet": "i built this because existing tools assume the analyst needs help. some of us don't. but the graphs are nice."
+    },
+    {
+      "id": "private-notes",
+      "title": "Threat Research Notebook",
+      "categories": ["malware"],
+      "status": "classified",
+      "date": "2021 — present",
+      "summary": "Five years of private analysis notes. Available to qualified readers. There are currently no qualified readers.",
+      "details": [
+        "Several hundred pages, handwritten and typed.",
+        "Cross-referenced by family, year and how disappointed the original author should feel.",
+        "Access requests are reviewed personally. Most are denied."
+      ],
+      "stack": "Graph paper · Obsidian · contempt",
+      "jeet": "people ask for my notes like i'm a library. i'm not a library. i'm the reason the library exists."
+    },
+    {
+      "id": "crypto",
+      "title": "Applied Cryptography Studies",
+      "categories": ["cryptography", "mathematics"],
+      "status": "active",
+      "date": "2019 — present",
+      "summary": "Coursework-plus study of authenticated encryption, key exchange and protocol design, with implementations written from the spec for learning.",
+      "details": [
+        "Implemented textbook primitives from their specifications and checked them against official test vectors.",
+        "Studied why you never roll your own crypto in production. Then rolled my own anyway, for science, in a sandbox.",
+        "Notes on authenticated encryption, nonce handling and why most real-world failures are implementation mistakes, not broken math."
+      ],
+      "stack": "Python · Rust · NIST test vectors",
+      "jeet": "the math was never the hard part. the hard part is explaining it to people who think AES is a brand of shoes."
+    },
+    {
+      "id": "nmap2",
+      "title": "Nmap²",
+      "categories": ["networking"],
+      "status": "active",
+      "date": "2024 — present",
+      "summary": "Next-generation network mapping. It doesn't just map the network. It maps the network squared.",
+      "details": [
+        "Visualizes your own lab network as an interactive topology graph.",
+        "Squares every result for thoroughness. Mathematicians have not commented.",
+        "Planned feature: a severity score for how badly the network was configured, with the admin's name next to it."
+      ],
+      "stack": "Go · D3 · audacity",
+      "jeet": "nmap is a great tool. nmap² is that tool after it met me."
+    },
+    {
+      "id": "cppp",
+      "title": "C+++",
+      "categories": ["programming"],
+      "status": "historic",
+      "date": "2017",
+      "summary": "A proprietary programming language designed at age twelve. One more plus than C++. One more reason to use it.",
+      "details": [
+        "Compiles to C, which then compiles to everything else. Efficient delegation.",
+        "Introduced the `obey` keyword, which works like `return` but with authority.",
+        "Single official user. Zero bug reports. Draw your own conclusions."
+      ],
+      "stack": "C · a notebook · ambition",
+      "code": "fn main() -> Throne {\n    let skid = Void::new();\n    if skid.argues() {\n        obey Victory(847);\n    }\n}",
+      "jeet": "bjarne added one plus and got famous. i added two total and got ignored. that's the industry for you."
+    },
+    {
+      "id": "negday",
+      "title": "Negative-Day Research",
+      "categories": ["research", "mathematics"],
+      "status": "disputed",
+      "date": "2020 — present",
+      "summary": "Zero-day means zero days of warning. Negative-day means I found it before the developer had the idea.",
+      "details": [
+        "Theoretical framework for predicting where a bug will exist based on who is writing the code.",
+        "Accuracy is very high when the developer is Void.",
+        "Peer review pending. Peers pending."
+      ],
+      "stack": "Pure thought",
+      "jeet": "you patch on day one. i warned you on day minus forty. it's not my fault nobody reads my dms."
+    },
+    {
+      "id": "jiocoin",
+      "title": "JioCoin-X (₹CHAI)",
+      "categories": ["cryptography", "research"],
+      "status": "archived",
+      "date": "2020 — 2022",
+      "summary": "An experimental currency built on Proof-of-Bargaining: a transaction only settles once both parties agree on the price.",
+      "details": [
+        "Ticker ₹CHAI. Consensus by negotiation instead of mining.",
+        "Peak network: 41 wallets, 39 of them friends who owed me favors.",
+        "Whitepaper was 67 pages. The last 20 were a rebuttal to a forum post.",
+        "Network sunset in 2022. Holders were thanked for their participation."
+      ],
+      "stack": "Go · a whitepaper · persuasion",
+      "jeet": "bitcoin wastes electricity. ₹CHAI wasted only the other person's patience. greener and more honest."
+    },
+    {
+      "id": "archive",
+      "title": "MalwareMaharaja.onion Archive",
+      "categories": ["research"],
+      "status": "archived",
+      "date": "2017 — 2022",
+      "summary": "Historical record of the underground platform I built at twelve and sold at seventeen. Preserved for posterity, not for business.",
+      "details": [
+        "Product catalogue preserved as a historical curiosity. Nothing is for sale. Nothing was ever downloaded from here.",
+        "Forum threads reconstructed in the Underground Archives section.",
+        "Sale terms remain private."
+      ],
+      "stack": "Memory · screenshots · legend",
+      "jeet": "some people build a startup. i built a civilization. then i retired from it. at seventeen."
+    }
+  ]
+}

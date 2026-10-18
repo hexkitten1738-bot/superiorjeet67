@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research & Projects · SuperiorJeet67</title>
+  <meta name="description" content="Research portfolio of SuperiorJeet67 — reverse engineering, malware, cryptography, programming. (Fictional satirical portfolio.)" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body data-root="./" data-page="research">
+  <main id="main">
+    <div class="page-head">
+      <div class="wrap">
+        <span class="eyebrow">// research &amp; projects</span>
+        <h1>Research &amp; Projects</h1>
+        <p>Some of this is tooling. Some of it is theory. Some of it reshaped a field and the field hasn't noticed yet. Filter it however you like.</p>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="filters" id="filters" role="group" aria-label="Filter projects by category"></div>
+        <div class="grid cols-3" id="projects"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./assets/js/main.js"></script>
+  <script>
+    const CATS = [
+      ["all", "all"], ["malware", "malware"], ["reverse-engineering", "reverse engineering"],
+      ["cryptography", "cryptography"], ["programming", "programming"],
+      ["mathematics", "mathematics"], ["networking", "networking"], ["research", "research"]
+    ];
+    let PROJECTS = [];
+    const grid = document.getElementById("projects");
+    const filterEl = document.getElementById("filters");
+
+    function card(p) {
+      return `<button class="card link fade in" data-open="${p.id}" style="text-align:left;font:inherit;color:inherit;cursor:pointer;background:var(--panel)">
+        <div class="meta"><span class="tag ${p.status}">${SJ.esc(p.status)}</span><span>${SJ.esc(p.date)}</span></div>
+        <h3>${SJ.esc(p.title)}</h3>
+        <p>${SJ.esc(p.summary)}</p>
+        <div class="mono" style="margin-top:12px;font-size:12px;color:var(--text-faint)">${p.categories.map(c => "#" + c).join(" ")}</div>
+      </button>`;
+    }
+    function render(cat) {
+      const list = cat === "all" ? PROJECTS : PROJECTS.filter(p => p.categories.includes(cat));
+      grid.innerHTML = list.map(card).join("") || '<p class="dim">Nothing in that category. Even I don\'t do everything.</p>';
+      grid.querySelectorAll("[data-open]").forEach(b => b.addEventListener("click", () => openProject(b.dataset.open)));
+    }
+    function openProject(id) {
+      const p = PROJECTS.find(x => x.id === id); if (!p) return;
+      const code = p.code ? `<h4>C+++ sample</h4><pre class="code">${SJ.esc(p.code)}</pre>` : "";
+      SJ.openModal(`
+        <div class="meta" style="margin-bottom:8px"><span class="tag ${p.status}">${SJ.esc(p.status)}</span><span class="mono faint">${SJ.esc(p.date)}</span></div>
+        <h2 id="sj-modal-title">${SJ.esc(p.title)}</h2>
+        <p class="dim">${SJ.esc(p.summary)}</p>
+        <h4>Details</h4>
+        <ul>${p.details.map(d => `<li>${SJ.esc(d)}</li>`).join("")}</ul>
+        ${code}
+        <h4>Stack</h4><p class="mono" style="color:var(--text)">${SJ.esc(p.stack)}</p>
+        <div class="note mono">// jeet's note<br>"${SJ.esc(p.jeet)}"</div>
+      `);
+      history.replaceState(null, "", "#" + id);
+    }
+
+    SJ.loadJSON("assets/data/research.json").then(d => {
+      PROJECTS = d.projects;
+      filterEl.innerHTML = CATS.map(([v, l], i) =>
+        `<button class="filter-btn" data-cat="${v}" aria-pressed="${i === 0}">${l}</button>`).join("");
+      filterEl.querySelectorAll(".filter-btn").forEach(b => b.addEventListener("click", () => {
+        filterEl.querySelectorAll(".filter-btn").forEach(x => x.setAttribute("aria-pressed", "false"));
+        b.setAttribute("aria-pressed", "true");
+        render(b.dataset.cat);
+      }));
+      render("all");
+      if (location.hash) openProject(location.hash.slice(1));
+    }).catch(() => SJ.loadError(grid));
+  </script>
+</body>
+</html>

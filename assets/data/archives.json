@@ -1,0 +1,137 @@
+{
+  "_note": "Fictional reconstructed forum records. Original fiction — not from any real community.",
+  "forum_name": "ChorBazaar.onion — Community Boards (reconstructed)",
+  "threads": [
+    {
+      "id": "intro",
+      "board": "General / Introductions",
+      "title": "Temple Orphan to Malware Maharaja (My Story)",
+      "date": "2018-02-11",
+      "posts": [
+        { "user": "SuperiorJeet67", "rank": "Founder · Verified Vendor", "rep": "+847", "op": true, "date": "2018-02-11 03:14",
+          "body": "<p>people always ask how i got here so here it is.</p><p>left outside a temple as a baby. raised by the caretakers. learned electronics from what other people threw away. built my first computer from scrap at nine. learned assembly because high level languages felt like someone was hiding things from me.</p><p>now i run this place. i'm thirteen.</p><p>from temple steps to the dark web. anything is possible if you hate mediocrity enough.</p>",
+          "sig": "Temple Orphan turned Malware Maharaja" },
+        { "user": "Hex_Sharma_99", "rank": "Member", "rep": "+112", "date": "2018-02-11 04:02",
+          "body": "<p>respect bro. temple to tor is a crazy arc</p>" },
+        { "user": "KernelPandit", "rank": "Senior Member", "rep": "+390", "date": "2018-02-11 06:47",
+          "body": "<p>Not going to lie, I thought the founder was a team of adults until he joined a voice call and his voice hadn't broken yet. Kid knows his stuff though. He walked me through a debugger session better than my college lecturer ever did.</p>" },
+        { "user": "NullPointerDelhi", "rank": "Member", "rep": "+44", "date": "2018-02-11 09:30",
+          "body": "<blockquote>i'm thirteen</blockquote><p>doubt.</p>" },
+        { "user": "SuperiorJeet67", "rank": "Founder · Verified Vendor", "rep": "+847", "op": true, "date": "2018-02-11 09:31",
+          "body": "<p>doubt is free. so is your account until i ban it.</p>" },
+        { "user": "NotTheMalwareMaharaja99", "rank": "New Member", "rep": "+1", "date": "2018-02-11 09:33",
+          "body": "<p>wow what an inspiring founder. clearly the smartest person on this forum. i am a totally separate person</p>" }
+      ]
+    },
+    {
+      "id": "jiocoin",
+      "board": "Projects / Crypto",
+      "title": "[ANN] JioCoin-X (₹CHAI) — Proof-of-Bargaining is live",
+      "date": "2020-06-03",
+      "posts": [
+        { "user": "SuperiorJeet67", "rank": "Founder · Verified Vendor", "rep": "+847", "op": true, "date": "2020-06-03 21:00",
+          "body": "<p>proof of work burns electricity. proof of stake rewards the already rich. proof of bargaining rewards the intelligent.</p><p>every transaction is a negotiation. both parties must agree on the final price before it settles. the network learns. the network adapts. the network respects you only if you deserve it.</p><p>whitepaper attached. 67 pages. read all of it before replying.</p>" },
+        { "user": "LinusChaiTips", "rank": "Senior Member", "rep": "+504", "date": "2020-06-03 21:26",
+          "body": "<p>Read it. Honestly the negotiation model is more interesting than half the coins people shill here. Throughput is going to be terrible though. A transaction can't settle until two people stop arguing.</p>" },
+        { "user": "SuperiorJeet67", "rank": "Founder · Verified Vendor", "rep": "+847", "op": true, "date": "2020-06-03 21:28",
+          "body": "<p>throughput is a feature. it filters out people who can't close a deal.</p>" },
+        { "user": "RootChai", "rank": "Member", "rep": "+73", "date": "2020-06-04 02:15",
+          "body": "<p>i tried to buy a sticker pack for 2 ₹CHAI and the network countered at 3. i'm not even mad, it's kind of genius</p>" },
+        { "user": "KernelPandit", "rank": "Senior Member", "rep": "+390", "date": "2020-06-04 08:10",
+          "body": "<p>Page 48 onward is just a rebuttal to NullPointerDelhi. Why is that in a whitepaper.</p>" },
+        { "user": "SuperiorJeet67", "rank": "Founder · Verified Vendor", "rep": "+847", "op": true, "date": "2020-06-04 08:11",
+          "body": "<p>because it's part of the history of the protocol.</p>" }
+      ]
+    },
+    {
+      "id": "reversing",
+      "board": "Technical / Reverse Engineering",
+      "title": "Graph paper reversing during a 14 hour power cut — writeup",
+      "date": "2018-08-19",
+      "posts": [
+        { "user": "SuperiorJeet67", "rank": "Founder · Verified Vendor", "rep": "+847", "op": true, "date": "2018-08-19 23:40",
+          "body": "<p>power went out across the block. laptop died at hour two. i had a printout of the disassembly so i finished the control flow graph by hand on graph paper with a candle.</p><p>photos of the graph attached. yes it's correct. i checked it when power came back.</p>" },
+        { "user": "KernelPandit", "rank": "Senior Member", "rep": "+390", "date": "2018-08-20 00:12",
+          "body": "<p>I've seen the photos. This is unhinged and also genuinely impressive. The loop structure is labelled cleaner than most tool output.</p>" },
+        { "user": "Hex_Sharma_99", "rank": "Member", "rep": "+112", "date": "2018-08-20 00:30",
+          "body": "<p>bro reversed by candlelight like a monk</p>" },
+        { "user": "ByteMaasi", "rank": "Moderator", "rep": "+611", "date": "2018-08-20 07:02",
+          "body": "<p>Pinned. Not because the method is recommended (please just buy a UPS) but because the writeup is good.</p>" }
+      ]
+    },
+    {
+      "id": "iit",
+      "board": "General / Off-topic",
+      "title": "So the Maharaja is going to college?",
+      "date": "2023-07-28",
+      "posts": [
+        { "user": "RootChai", "rank": "Member", "rep": "+73", "date": "2023-07-28 14:05",
+          "body": "<p>heard the platform got sold and jeet is going to IIT now. is this real</p>" },
+        { "user": "SuperiorJeet67", "rank": "Founder (Retired)", "rep": "+847", "op": true, "date": "2023-07-28 14:20",
+          "body": "<p>yes. the operation is sold. i'm not going to say for how much. the number would only hurt people.</p><p>i'm studying computer science. not because i need a degree. because i want to see what the formal path looks like from the inside. know your enemy.</p>" },
+        { "user": "NullPointerDelhi", "rank": "Member", "rep": "+44", "date": "2023-07-28 14:31",
+          "body": "<p>last month you said you sold it for crypto. two weeks ago it was a 'private equity arrangement.' which is it</p>" },
+        { "user": "SuperiorJeet67", "rank": "Founder (Retired)", "rep": "+847", "op": true, "date": "2023-07-28 14:32",
+          "body": "<p>both. it was a complex deal. you wouldn't understand the structure.</p>" },
+        { "user": "CampusCompiler", "rank": "Member", "rep": "+29", "date": "2024-02-02 22:48",
+          "body": "<p>Can confirm he's in my batch. He corrected the TA in our first systems lab. The TA was right, but he corrected him so confidently that half the class wrote down Jeet's version. He did ace the lab though.</p>" }
+      ]
+    },
+    {
+      "id": "debate",
+      "board": "Technical / Debates",
+      "title": "Is 'negative-day' a real concept or just a flex",
+      "date": "2021-03-09",
+      "posts": [
+        { "user": "LinusChaiTips", "rank": "Senior Member", "rep": "+504", "date": "2021-03-09 18:00",
+          "body": "<p>Opening this thread so we stop derailing every other one. Jeet says he 'invents' vulnerabilities before the code exists. Discuss.</p>" },
+        { "user": "SuperiorJeet67", "rank": "Founder · Verified Vendor", "rep": "+847", "op": true, "date": "2021-03-09 18:03",
+          "body": "<p>i don't invent them. i predict them. every developer has patterns. learn the person, you learn the bugs. the code is just the formality.</p>" },
+        { "user": "KernelPandit", "rank": "Senior Member", "rep": "+390", "date": "2021-03-09 18:40",
+          "body": "<p>To be fair that's not totally crazy. Code review people say this all the time, certain devs repeat the same mistakes. Calling it 'negative-day' is a stretch but the core idea is threat modelling with extra ego.</p>" },
+        { "user": "NullPointerDelhi", "rank": "Member", "rep": "+44", "date": "2021-03-09 19:12",
+          "body": "<p>so it's just code review but you name it after yourself</p>" },
+        { "user": "SuperiorJeet67", "rank": "Founder · Verified Vendor", "rep": "+847", "op": true, "date": "2021-03-09 19:13",
+          "body": "<p>everything good is named after someone. that's how you know it's good.</p>" }
+      ]
+    },
+    {
+      "id": "exaggerated",
+      "board": "General / Drama",
+      "title": "Are Jeet's claims exaggerated? (civil thread please)",
+      "date": "2025-01-14",
+      "posts": [
+        { "user": "ByteMaasi", "rank": "Moderator", "rep": "+611", "date": "2025-01-14 11:00",
+          "body": "<p>Fine. One thread. Keep it civil or it gets locked.</p>" },
+        { "user": "NullPointerDelhi", "rank": "Member", "rep": "+44", "date": "2025-01-14 11:04",
+          "body": "<p>the 67th theorem. nobody has seen the proof. that's my whole argument.</p>" },
+        { "user": "KernelPandit", "rank": "Senior Member", "rep": "+390", "date": "2025-01-14 11:20",
+          "body": "<p>Some of it is clearly mythology. But I've worked with him. The technical ability is real. He's just incapable of saying 'I'm good at this' without adding 'and you're not.'</p>" },
+        { "user": "RootChai", "rank": "Member", "rep": "+73", "date": "2025-01-14 11:41",
+          "body": "<p>the tiffin box servers were real. i still have one. thermals are actually amazing</p>" },
+        { "user": "SuperiorJeet67", "rank": "Founder (Retired)", "rep": "+847", "date": "2025-01-14 12:00", "op": true,
+          "body": "<p>i don't need anyone to tell me i'm good at this.</p><p>but kernelpandit is right and nullpointer is wrong. as usual.</p>" },
+        { "user": "NotTheMalwareMaharaja99", "rank": "Member", "rep": "+2", "date": "2025-01-14 12:01",
+          "body": "<p>i have also seen the proof and it is beautiful. also not jeet</p>" },
+        { "user": "ByteMaasi", "rank": "Moderator", "rep": "+611", "date": "2025-01-14 12:03",
+          "body": "<p>NotTheMalwareMaharaja99 is posting from the same session as the thread above it. Locking.</p>" }
+      ]
+    }
+  ],
+  "chatlog": [
+    ["14:23", "Hex_Sharma_99", "anyone around"],
+    ["14:24", "RootChai", "jeet bhai you still at iit?"],
+    ["14:24", "SuperiorJeet67", "attending classes and running research. both before lunch"],
+    ["14:26", "KernelPandit", "legend"],
+    ["14:28", "Void", "bro your research is just screenshots"],
+    ["14:28", "SuperiorJeet67", "says the man whose github is one forked repo and a README that says 'test'"],
+    ["14:29", "Void", "i could reverse your whole framework"],
+    ["14:29", "SuperiorJeet67", "which architecture. don't embarrass yourself"],
+    ["14:29", "Void", "the normal one"],
+    ["14:30", "SuperiorJeet67", "there it is. 848 incoming"],
+    ["14:30", "Void", "cope harder"],
+    ["14:31", "SuperiorJeet67", "847 debates. 0 wins for you. i'll be here when you learn what a register is"],
+    ["14:31", "ByteMaasi", "keep it technical or take it to DMs"],
+    ["14:32", "SuperiorJeet67", "it was technical. he just couldn't follow it"]
+  ]
+}

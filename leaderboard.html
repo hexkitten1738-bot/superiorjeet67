@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proof of Superiority · SuperiorJeet67</title>
+  <meta name="description" content="The official rivalry record: SuperiorJeet67 vs Void. 847-0. (Fictional satirical portfolio.)" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body data-root="./" data-page="leaderboard">
+  <main id="main">
+    <div class="page-head">
+      <div class="wrap">
+        <span class="eyebrow">// proof of superiority</span>
+        <h1>Proof of Superiority</h1>
+        <p>A complete and impartial record of every intellectual contest between myself and Void. Impartial because I keep it, and I have no reason to lie about something this one-sided.</p>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="versus fade" id="versus"></div>
+        <div class="grid cols-4" id="record-stats" style="margin-top:20px"></div>
+
+        <h2 style="margin-top:48px">Challenge log</h2>
+        <div class="table-wrap" style="margin-top:16px">
+          <table class="results">
+            <thead><tr><th>#</th><th>Date</th><th>Category</th><th>Challenge</th><th>Result</th></tr></thead>
+            <tbody id="results-body"></tbody>
+          </table>
+        </div>
+
+        <div class="finebox" id="finebox"></div>
+      </div>
+    </section>
+  </main>
+  <script src="./assets/js/main.js"></script>
+  <script>
+    SJ.loadJSON("assets/data/leaderboard.json").then(d => {
+      const r = d.record, v = d.rivalry;
+      document.getElementById("versus").innerHTML = `
+        <div class="side"><span class="nm green">${SJ.esc(v.champion)}</span><span class="sc green">${r.wins}</span><span class="lbl dim">wins</span></div>
+        <div class="vs">VS</div>
+        <div class="side"><span class="nm red">${SJ.esc(v.challenger)}</span><span class="sc red">${r.losses}</span><span class="lbl dim">wins</span></div>`;
+      document.getElementById("record-stats").innerHTML = `
+        <div class="card stat"><span class="num green">${r.wins}</span><span class="lbl">total victories</span></div>
+        <div class="card stat"><span class="num">${r.losses}</span><span class="lbl">defeats</span></div>
+        <div class="card stat"><span class="num">${r.disputed}</span><span class="lbl">disputed</span></div>
+        <div class="card stat"><span class="num amber" style="font-size:1.1rem;padding-top:10px;display:block">${SJ.esc(r.verification)}</span><span class="lbl">independent verification</span></div>`;
+      document.getElementById("results-body").innerHTML = d.challenges.map(c => `
+        <tr>
+          <td class="id">${SJ.esc(c.id)}</td>
+          <td class="id faint">${SJ.esc(c.date)}</td>
+          <td>${SJ.esc(c.category)}</td>
+          <td>${SJ.esc(c.challenge)}<span class="fine">${SJ.esc(c.note)}</span></td>
+          <td class="res">${SJ.esc(c.result)}</td>
+        </tr>`).join("");
+      document.getElementById("finebox").innerHTML =
+        `// showing ${d.challenges.length} selected contests of ${r.wins} total.<br>
+         // adjudicating authority: ${SJ.esc(v.adjudicator)}.<br>
+         // inconclusive debates are awarded to the champion per longstanding tradition (est. by the champion).<br>
+         // scores are stored in <span class="green">assets/data/leaderboard.json</span> and may be updated by the SuperiorJeet67 Discord bot.<br>
+         // last updated: ${SJ.esc(r.last_updated)}.`;
+    }).catch(() => SJ.loadError(document.getElementById("results-body").closest(".wrap")));
+  </script>
+</body>
+</html>

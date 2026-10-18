@@ -1,0 +1,124 @@
+{
+  "_note": "Fictional lore for SuperiorJeet67. Used by the Random Achievement button and the terminal. Safe to edit.",
+  "discoveries": [
+    {
+      "year": "2014",
+      "status": "verified (by me)",
+      "text": "Rebuilt a dead 486 motherboard from Chor Bazaar scrap using solder from a temple lamp repair kit. Age nine. It booted."
+    },
+    {
+      "year": "2015",
+      "status": "documented",
+      "text": "Wrote a working x86 disassembler in QBasic because nobody would lend me a copy of IDA."
+    },
+    {
+      "year": "2017",
+      "status": "historic",
+      "text": "Designed C+++, a language with one extra plus because two was clearly not enough."
+    },
+    {
+      "year": "2017",
+      "status": "archived",
+      "text": "Founded MalwareMaharaja.onion. Age twelve. Most founders are thirty-five. Make of that what you will."
+    },
+    {
+      "year": "2018",
+      "status": "legendary",
+      "text": "Hand-decoded a packed sample's control flow on graph paper during a 14-hour power cut."
+    },
+    {
+      "year": "2019",
+      "status": "peer reviewed (by peers I approved)",
+      "text": "Proved the 67th theorem. The first 66 were warmups. Proof available upon request to qualified readers."
+    },
+    {
+      "year": "2020",
+      "status": "pioneered",
+      "text": "Invented Negative-Day research: finding the vulnerability before the developer has the idea for the feature."
+    },
+    {
+      "year": "2020",
+      "status": "launched",
+      "text": "Launched JioCoin-X (₹CHAI). First consensus mechanism that requires you to out-negotiate the network."
+    },
+    {
+      "year": "2021",
+      "status": "undefeated",
+      "text": "Won a 9-hour reverse engineering debate by forfeit after my opponent's laptop died. I was still on 61%."
+    },
+    {
+      "year": "2022",
+      "status": "classified",
+      "text": "Sold the MalwareMaharaja operation. The figure is private. It was enough. It was more than enough."
+    },
+    {
+      "year": "2023",
+      "status": "ongoing",
+      "text": "Admitted to IIT Bombay. The entrance exam was the easiest system I have ever been asked to break, legally."
+    },
+    {
+      "year": "2024",
+      "status": "ongoing",
+      "text": "Began Nmap², a scanner that maps the network and also maps the people who configured it badly."
+    },
+    {
+      "year": "2025",
+      "status": "847–0",
+      "text": "Established an undefeated intellectual record against Void. Still standing. Will always be standing."
+    },
+    {
+      "year": "2025",
+      "status": "verified",
+      "text": "Explained full RELRO in a Discord VC without opening Google. Two people left the call. Out of respect, presumably."
+    },
+    {
+      "year": "2026",
+      "status": "in progress",
+      "text": "Currently developing tooling that will, in my estimation, change offensive security research permanently."
+    }
+  ],
+  "marketplace_items": [
+    {
+      "name": "Sanskar-Lock",
+      "year": "2017",
+      "desc": "File encryption utility with a custom key-derivation scheme. Considered unbreakable by its author and two customers.",
+      "status": "discontinued"
+    },
+    {
+      "name": "Betaji Ransomware (concept)",
+      "year": "2017",
+      "desc": "A ransomware concept that never shipped. The ransom note was a 4-page lecture on personal discipline. Victims would have learned something.",
+      "status": "never released"
+    },
+    {
+      "name": "Throne Protocol",
+      "year": "2018",
+      "desc": "Peer-to-peer messaging overlay where every node defers to the founder node. Decentralized, technically.",
+      "status": "archived"
+    },
+    {
+      "name": "Zero-Trust Burner",
+      "year": "2018",
+      "desc": "Hardened feature phone running a stripped custom firmware. Trusts nobody. Except me.",
+      "status": "sold out"
+    },
+    {
+      "name": "Tiffin-Box Server Nodes",
+      "year": "2019",
+      "desc": "Low-power single-board servers inside stacked steel lunch tins. Passive cooling. Unbelievably good thermals.",
+      "status": "legendary"
+    },
+    {
+      "name": "Darbar Router",
+      "year": "2019",
+      "desc": "OpenWrt-based travel router with a custom dashboard that greets the owner as 'Your Majesty'.",
+      "status": "archived"
+    },
+    {
+      "name": "Escrow-67",
+      "year": "2020",
+      "desc": "Multi-signature escrow for marketplace trades. The third signer was always me. Zero disputes I lost.",
+      "status": "retired"
+    }
+  ]
+}
